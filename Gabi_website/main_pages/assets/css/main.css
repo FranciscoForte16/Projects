@@ -478,6 +478,10 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   background-image: url(../img/gabifoto1.JPG);
 }
 
+.breadcrumb-bg-2 {
+  background-image: url(../img/gabifoto6.JPG);
+}
+
 .breadcrumb-text p {
   color: #996515;
   font-weight: 700;
