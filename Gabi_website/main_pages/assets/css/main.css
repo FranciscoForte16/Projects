@@ -612,7 +612,8 @@ nav.main-menu > ul li:last-child {
 
 .site-logo {
   float: left;
-  max-width: 100px;
+  max-width: 120px;
+  position: absolute;
 }
 
 ul.sub-menu li:last-child {
@@ -1469,15 +1470,15 @@ input[type="submit"] {
 }
 
 .homepage-bg-1 {
-  background-image: url(../img/gabi2.JPG);
+  background-image: url(../img/gabifoto7.jpg);
 }
 
 .homepage-bg-2 {
-  background-image: url(../img/gabi2.JPG);
+  background-image: url(../img/gabifoto9.JPG);
 }
 
 .homepage-bg-3 {
-  background-image: url(../img/gabi2.JPG);
+  background-image: url(../img/gabifoto6.JPG);
 }
 
 .homepage-slider {
@@ -2067,7 +2068,7 @@ a.video-play-btn {
 }
 
 .abt-bg {
-  background-image: url(../img/amggt3.jpg);
+  background-image: url(../img/gabifoto3.jpg);
   height: 100%;
   width: 100%;
   background-size: cover;
