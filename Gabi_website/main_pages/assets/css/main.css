@@ -2768,14 +2768,22 @@ table.order-details tbody td {
 
 
 .myContainer {
-  min-height: 100vh;
   width: 100%;
-  height: 140%;
+  height: 40cm;
   align-items: center;
   justify-content: center;
-  margin-bottom: 180px;
+  position: relative;
 }
 
+@media screen and (max-width: 1000px) {
+  .myContainer {
+    width: 100%;
+    height: 32cm;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
 .myBox{
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -2831,7 +2839,7 @@ table.order-details tbody td {
       content: '';
       position: absolute;
       top: 1;
-      height: 144%;
+      height: 100em;
       width: 2px;
       left: 52.5%;
       transform: translateX(-50%);
